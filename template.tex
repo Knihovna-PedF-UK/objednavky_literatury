@@ -1,0 +1,35 @@
+\documentclass[a4paper,landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Fira Sans}
+\usepackage[code=Code39,X=.5mm,ratio=2.25,H=1cm]{makebarcode}
+\usepackage{ncccropbox}
+\usepackage{qrcode}
+\usepackage[margin=0.5cm]{geometry}
+\parindent=0pt
+\pagestyle{empty}
+\newcommand\objednavka[6]{%
+  \cropbox[72mm][198mm]{%
+    \begin{minipage}{64mm}%
+      \vtop to 190mm{%
+        \vspace{2mm}
+        \textbf{Jméno}:\\ #1\\%
+        \textbf{Objednáno na}: \\ #4\\%
+        \textbf{Čas objednávky}: \\ #3\\%
+        \textbf{E-mail}: \\ #5\\%
+        \textbf{ČK uživatele}:\\#2%
+        \\ ~ \\
+        \barcode{#2}\\%
+        \\ ~ \\
+        \textbf{Signatury:}\\%
+        #6%
+        \\ ~ \\
+        \vfill
+        \qrcode{#1:#5:#6}
+        \vspace{0mm}
+      }
+    \end{minipage}
+  }%
+}%
+\begin{document}
+{{content}}
+\end{document}
