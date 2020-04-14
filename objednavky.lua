@@ -53,9 +53,17 @@ function M.parse_csv(text, map)
   return messages
 end
 
+-- add unique ID to each receipt
+function M.make_id(messages, prefix)
+  for i, msg in ipairs(messages) do
+    msg["id"] = prefix .. i
+  end
+  return messages
+end
+
 function M.fill_template(template, messages)
   local lines = {}
-  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}%%'
+  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}%%'
   for i, msg in ipairs(messages) do
     -- simple string interpolation
     lines[i] = cmd_template:gsub("%$([%a]+)", function(key) return msg[key] end)
@@ -67,6 +75,7 @@ end
 
 local text = io.read("*all")
 local messages = M.parse_csv(text)
+messages = M.make_id(messages, os.date("%m-%d-"))
 local f = io.open("template.tex", "r")
 local template = f:read("*a")
 f:close()

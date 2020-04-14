@@ -7,11 +7,12 @@
 \usepackage[margin=0.5cm]{geometry}
 \parindent=0pt
 \pagestyle{empty}
-\newcommand\objednavka[6]{%
+\newcommand\objednavka[7]{%
   \cropbox[72mm][198mm]{%
     \begin{minipage}{64mm}%
       \vtop to 190mm{%
         \vspace{2mm}
+        \textbf{ID Objednávky}:\\ #7\\%
         \textbf{Jméno}:\\ #1\\%
         \textbf{Objednáno na}: \\ #4\\%
         \textbf{Čas objednávky}: \\ #3\\%
