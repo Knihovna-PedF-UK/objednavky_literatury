@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  <script>
+    function sendMail() {
+    let parts = document.getElementById('myText').value.split(":")
+    let jmeno = parts[0]
+    let mail = parts[1]
+    let signatury = parts[2]
+    let id = parts[3]
+    let content = "Dobrý den\n\nVaše objednávka číslo " + id +"\n\n"+ signatury
+
+    var link = "mailto:" + mail 
+             + "?subject=" + encodeURIComponent("Knihovna PedF UK - objedávka literatury")
+             + "&body=" + encodeURIComponent(content)
+    ;
+
+    window.open(link)
+    //window.location.href = link // open mail
+    //window.location.href = oldlocation // return back
+     
+    document.getElementById('myText').value = ""
+}
+  </script>
+  </head>
+  <body>
+    <h1>Mail uživatelům</h1>
+    <p>Tento formulář slouží k vygenerování mailu pro uživatele</p>
+    <p>Do textového pole načtěte QR kód z objednávky</p>
+    <textarea id="myText">
+      pepa:pepa@z.depa:F2333
+      F23333
+      F2333:1-33-222
+</textarea>
+<button onclick="sendMail(); return true">Odešli</button>
+  </body>
+</html>
+
