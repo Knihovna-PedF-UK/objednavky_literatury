@@ -1,5 +1,6 @@
 local M = {}
 local default_map = {["ra72bc06000374e3582c79c0c15dfbc90"]="name",rc4d9391b9ba34627ad82aab3000a4550= "callno", r223b7dd8e7fb4f1292eb2a8bdb09fa3c="date", rcda891ad0f374935bccb4e17273bf0b8="barcode", r5f5ef809a901400eb72cda41237c8385="mail" }
+local parse_prir = require "parse_prir"
 
 
 local function sort_callnos(callnos)
