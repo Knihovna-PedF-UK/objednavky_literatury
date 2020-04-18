@@ -7,8 +7,9 @@
     let parts = document.getElementById('myText').value.split(":")
     let jmeno = parts[0]
     let mail = parts[1]
-    let signatury = parts[2]
+    let signatury = parts[2].replace(/\\/g, "\n")
     let id = parts[3]
+    let user_id = parts[4]
     let content = "Dobrý den\n\nVaše objednávka číslo " + id +"\n\n"+ signatury
 
     var link = "mailto:" + mail 
@@ -28,11 +29,8 @@
     <h1>Mail uživatelům</h1>
     <p>Tento formulář slouží k vygenerování mailu pro uživatele</p>
     <p>Do textového pole načtěte QR kód z objednávky</p>
-    <textarea id="myText">
-      pepa:pepa@z.depa:F2333
-      F23333
-      F2333:1-33-222
-</textarea>
+    <textarea id="myText" rows="5" cols="33">
+    </textarea><br />
 <button onclick="sendMail(); return true">Odešli</button>
   </body>
 </html>
