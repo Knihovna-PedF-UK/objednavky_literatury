@@ -123,7 +123,7 @@ end
 
 function M.fill_template(template, messages)
   local lines = {}
-  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}%%'
+  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$userId}%%'
   for i, msg in ipairs(messages) do
     -- simple string interpolation
     lines[i] = cmd_template:gsub("%$([%a]+)", function(key) return msg[key] end)
