@@ -83,9 +83,10 @@ local function join_records(records)
       person.callno = "" -- we need to collect call numbers
       person.pos = i -- we want to sort persons as they appeared in the xml file
       person.barcode = id --overwrite barcode
+      person.submitDate = rec.open_date .. " " .. rec.open_hour -- construct submit time
       persons[id] = person 
     end
-    person.callno = person.callno ..  rec.callno .."\n" -- join callnumbers with newlines
+    person.callno = person.callno ..  rec.callno .."\\\\\n" -- join callnumbers with newlines
   end
   -- make new sorted table
   local newrecords = {}
