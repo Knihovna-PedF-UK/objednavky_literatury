@@ -1,0 +1,4 @@
+#!/bin/bash
+# importovat soubor z Wine do adresáře
+# je třeba zadat název dávky
+cat ~/.wine/drive_c/AL500/Circ/files/CKS50/print/$1 | dos2unix > $1
