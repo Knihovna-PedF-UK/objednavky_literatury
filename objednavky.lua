@@ -54,6 +54,64 @@ function M.parse_csv(text, map)
   return messages
 end
 
+local function remap_records(records, map)
+  local records = records or {}
+  local new = {}
+  for i = 1, #records do
+    rec = records[i]
+    local newrec = {date=""} -- we don't use date in this case
+    for k,v in pairs(rec) do
+      if map[k] then
+        newrec[map[k]] = v
+      end
+    end
+    new[#new+1] = newrec
+  end
+  return new
+end
+
+-- join records for each person
+local function join_records(records)
+  local persons = {}
+  for i = 1, #records do
+    local rec = records[i]
+    local id = rec["user_barcode"]
+    local person = persons[id] 
+    if not person then
+      person = {}
+      for k,v in pairs(rec) do person[k] = v end
+      person.callno = "" -- we need to collect call numbers
+      person.pos = i -- we want to sort persons as they appeared in the xml file
+      person.barcode = id --overwrite barcode
+      persons[id] = person 
+    end
+    person.callno = person.callno ..  rec.callno .."\n" -- join callnumbers with newlines
+  end
+  -- make new sorted table
+  local newrecords = {}
+  for _, record in pairs(persons) do
+    record["callno"] =  sort_callnos(record["callno"]) -- sort call numbers
+    newrecords[#newrecords + 1] = record
+  end
+  table.sort(newrecords, function(a,b) return a.pos < b.pos end)
+  return newrecords
+
+end
+
+function M.parse_xml(text, map)
+  -- map should be in the format {xmltag="name"}
+  -- find xml tags position in the xml file
+  local xml_tags={}
+  for k, _ in pairs(map) do xml_tags[#xml_tags+1] = k end
+  local f = parse_prir.load_file(text)
+  local root =  "section-01"
+  local pos = parse_prir.find_pos(f, xml_tags, root)
+  parse_prir.make_saves(pos)
+  local records = parse_prir.parse(f, root)
+  local newrecords = remap_records(records, map)
+  return join_records(newrecords)
+end
+
 -- add unique ID to each receipt
 function M.make_id(messages, prefix)
   for i, msg in ipairs(messages) do
@@ -74,14 +132,5 @@ function M.fill_template(template, messages)
 end
  
 
-local text = io.read("*all")
-local messages = M.parse_csv(text)
-messages = M.make_id(messages, os.date("%m-%d-"))
-local f = io.open("template.tex", "r")
-local template = f:read("*a")
-f:close()
-
-local content = M.fill_template(template, messages)
-print(content)
 
 return M
