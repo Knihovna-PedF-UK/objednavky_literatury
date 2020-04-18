@@ -1,0 +1,2 @@
+all:
+	mkdir -p objednavky
