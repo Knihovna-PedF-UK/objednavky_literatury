@@ -1,3 +1,32 @@
+# Instalace
+
+
+Naklonovat projekt z Githubu a spustit příkaz Make. 
+
+    make
+
+Je třeba také nainstalovat [skripty pro práci s XML z
+Alephu](https://github.com/michal-h21/prirustak).
+
+
+# Zpracování objednávek z Alephu
+
+Aleph tvoří dávky s novýma objednávkama ve všední dny po 8. a pak ve 14:15. Objednávka má název:
+
+    pedfr_obj_sklad_YYYYMMDD_HHMM
+
+takže například
+
+    pedfr_obj_sklad_20200417_1415
+
+Soubor se objeví ve správci souborů v modulu Výpujčky. Je třeba stáhnout. Pokud
+spouštím Aleph přes Wine, můžu soubor naimportovat do současného adresáře
+pomocí:
+
+    ./aleph-import pedfr_obj_sklad_20200417_1415
+
+Ten opraví konce řádků a nakopíruje soubor do podadresáře objednavky
+
 # Zpracování objednávkového formuláře na výpůjčky
 
 Vytvořil jsem [formulář v Office
