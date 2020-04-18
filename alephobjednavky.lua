@@ -24,5 +24,12 @@ local content = objednavky.fill_template(template, messages)
 local lualatex = io.popen("lualatex --jobname=" .. input, "w")
 lualatex:write(content)
 lualatex:close()
+
+--- make csv file for mail merge
+local tsv = objednavky.make_tsv(messages)
+local tsv_file = io.open(input .. ".csv", "w")
+tsv_file:write(tsv)
+tsv_file:close()
+
 os.execute("xdg-open ".. input .. ".pdf")
 

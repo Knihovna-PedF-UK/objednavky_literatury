@@ -133,5 +133,28 @@ function M.fill_template(template, messages)
 end
  
 
+function M.make_tsv(messages)
+  local t = {}
+  local header = {}
+  local row_to_tsv = function(row)
+    local t = {}
+    for _, val in ipairs(row) do t[#t+1] = '"' .. val .. '"' end
+    return table.concat(t, "\t")
+  end
+  local make_row = function(row, header)
+    local t = {}
+    for _, column in ipairs(header) do t[#t+1] =  row[column] end
+    return t
+  end
+  --make header first
+  for k, _ in pairs(messages[1]) do header[#header+1] =  k end
+  table.sort(header) -- I just don't want the random order
+  t[#t+1] = row_to_tsv(header)
+  for _, row in ipairs(messages) do
+    t[#t+1]  = row_to_tsv(make_row(row,header))
+  end
+  return table.concat(t, "\n")
+
+end
 
 return M
