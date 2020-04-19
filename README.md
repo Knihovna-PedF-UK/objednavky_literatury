@@ -25,7 +25,37 @@ pomocí:
 
     ./aleph-import pedfr_obj_sklad_20200417_1415
 
-Ten opraví konce řádků a nakopíruje soubor do podadresáře objednavky
+Ten opraví konce řádků a nakopíruje soubor do podadresáře objednavky. Pak můžeme vygenerovat seznam objednávek pomocí:
+
+    texlua alephobjednavky.lua objednavky/pedfr_obj_sklad_20200417_1415
+
+PDF soubor bude vygenerován v adresáři `objednavky` a automaticky se zobrazí. 
+
+# Odesílání mailů
+
+Kromě PDF souboru se vygeneruje také CSV soubor, který jde otevřít v Excelu. Ten se využije pro hromadné odesílání mailů. 
+
+## Prerekvizity
+
+- nastavit účet pro knihovnu v thunderbirdu
+- nainstalovat rozšíření [MailMerge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/)
+
+## Postup
+
+- návod na použití CSV souboru pro hromadných mailů na stránkách rozšíření [MailMerge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/)
+- otevřít CSV soubor v Excelu a smazat záznamy, které se nevyřídily. Ty se musí vykomunikovat ručně.
+- pole z CSV souboru se můžou vložit do mailu (do adresy, předmětu i těla) pomocí {{jmeno pole}}.
+- příklad:
+
+    adresa: {{mail}}
+    předmět: Knihovna PedF UK. Vyřízená objednávka č. {{id}}
+    text: 
+      Dobrý den, 
+      
+      vaše objednávka č. {{id}} z {{submitDate}} byla vyřízena. 
+
+      Připravili jsme pro Vás signatury: {{calno}}.
+
 
 # Zpracování objednávkového formuláře na výpůjčky
 
