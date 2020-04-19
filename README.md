@@ -47,10 +47,10 @@ Kromě PDF souboru se vygeneruje také CSV soubor, který jde otevřít v Excelu
 - pole z CSV souboru se můžou vložit do mailu (do adresy, předmětu i těla) pomocí {{jmeno pole}}.
 - příklad:
 
+
     adresa: {{mail}}
     předmět: Knihovna PedF UK. Vyřízená objednávka č. {{id}}
-    text: 
-      Dobrý den, 
+    text: Dobrý den, 
       
       vaše objednávka č. {{id}} z {{submitDate}} byla vyřízena. 
 
