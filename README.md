@@ -59,6 +59,14 @@ Připravili jsme pro Vás signatury: {{calno}}.
 
 ```
 
+- místo "Odeslat" je třeba kliknout na šipku dolů a vybrat *Mail Merge*
+- otevře se dialog. Jako zdroj vybrat "CSV", najít soubor pomocí procházet. Jako oddělovač polí se musí zadat "Tab". Pak můžeme vybrat OK.
+- maily se neodešlou hned, uloží se do složky "Pošta k odeslání". Klikneme na
+  ní pravým tlačítkema vybereme "Odeslat neodeslané zprávy". Ale nejdřív můžete
+  zkontrolovat, jestli je všechno v pořádku.
+
+
+
 # Zpracování objednávkového formuláře na výpůjčky
 
 Vytvořil jsem [formulář v Office
