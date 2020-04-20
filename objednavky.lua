@@ -99,16 +99,37 @@ local function join_records(records)
 
 end
 
-function M.parse_xml(text, map)
+-- delete spurious lines from the input
+local function clean_xml(input_file)
+  local newinput = os.tmpname()
+  local f = io.open(newinput, "w")
+  -- copy lines, but ignore what we don't want to be in the new xml file
+  for line in io.lines(input_file) do
+    local z302key = line:match("z302%-key%-([0-9]+)")
+    -- ignore z302 keys that are not z302-key-01
+    if z302key == "01" or z302key == nil then
+      f:write(line .."\n")
+    end
+  end
+  f:close()
+  return newinput
+  
+end
+
+function M.parse_xml(inputfile, map)
   -- map should be in the format {xmltag="name"}
   -- find xml tags position in the xml file
   local xml_tags={}
   for k, _ in pairs(map) do xml_tags[#xml_tags+1] = k end
-  local f = parse_prir.load_file(text)
+  -- clean xml and make temp file
+  local newinput = clean_xml(inputfile)
+  local f = parse_prir.load_file(newinput)
   local root =  "section-01"
   local pos = parse_prir.find_pos(f, xml_tags, root)
   parse_prir.make_saves(pos)
   local records = parse_prir.parse(f, root)
+  -- remove temp file
+  os.remove(newinput)
   local newrecords = remap_records(records, map)
   return join_records(newrecords)
 end
