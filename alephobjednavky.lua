@@ -1,6 +1,6 @@
 local objednavky = require "objednavky"
 
-local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}%%'
+local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$qrcallno}%%'
 local map = {
   ["z30-doc-number"] = "barcode",
   ["z302-name"] = "name",
@@ -9,13 +9,14 @@ local map = {
   ["email-address"] = "mail",
   ["z37-open-date"] = "open_date",
   ["z37-open-hour"] = "open_hour",
+  ["bib-info"] = "bibinfo",
   ["z302-id"] = "userId"
 }
 
 local input = arg[1]
 
 local messages = objednavky.parse_xml(input, map)
-messages = objednavky.make_id(messages, os.date("%m-%d-"))
+messages = objednavky.make_id(messages, os.date("%m-%d-%H-"))
 local f = io.open("template.tex", "r")
 local template = f:read("*a")
 f:close()
