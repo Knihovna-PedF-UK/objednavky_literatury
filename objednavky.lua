@@ -3,19 +3,14 @@ local default_map = {["ra72bc06000374e3582c79c0c15dfbc90"]="name",rc4d9391b9ba34
 local parse_prir = require "parse_prir"
 
 
-local function sort_callnos(callnos)
-  -- sort call numbers 
-  local t  = {}
-  -- explode lines
-  for line in callnos:gmatch("([^\n]+)") do
-    t[#t+1] = line
-  end
-  local get_call_no = function(a)
-    local letter, digit = a:match("([0-9]*[a-zA-Z]+)([0-9]+)") 
-    letter = letter or ""
-    digit = digit or "0"
-    return letter, tonumber(digit)
-  end
+local get_call_no = function(a)
+  local letter, digit = a:match("([0-9]*[a-zA-Z]+)([0-9]+)") 
+  letter = letter or ""
+  digit = digit or "0"
+  return letter, tonumber(digit)
+end
+
+local function sort_callnos_table(t)
   table.sort(t, function(a,b)
     -- callno looks like F2322
     -- we need to get the letter part and number part separatelly
@@ -26,6 +21,16 @@ local function sort_callnos(callnos)
     end
     return s1 < s2
   end)
+end
+
+local function sort_callnos(callnos)
+  -- sort call numbers 
+  local t  = {}
+  -- explode lines
+  for line in callnos:gmatch("([^\n]+)") do
+    t[#t+1] = line
+  end
+  sort_callnos_table(t)
   return table.concat(t, "\n")
 end
 
@@ -70,6 +75,41 @@ local function remap_records(records, map)
   return new
 end
 
+local function sort_aleph_callnos(items)
+  -- items from Aleph contain callno and title. sort them by callno
+  local callnos = {}
+  local backmap = {}
+  local sorted = {}
+  for _, item in ipairs(items) do
+    callnos[#callnos + 1] = item.callno
+    backmap[item.callno] = item.title
+  end
+  sort_callnos_table(callnos)
+  for _, callno in ipairs(callnos) do
+    sorted[#sorted+1] = {callno= callno, title = backmap[callno]}
+  end
+  return sorted
+end
+
+local function get_joined_callnos(items) 
+  local t = {}
+  for _, item in ipairs(items) do t[#t+1] = item.callno end
+  return table.concat(t, ", ")
+end
+
+local function get_callnos_for_print(items)
+  -- get callnos and titles 
+  local t = {}
+  for _, item in ipairs(items) do 
+    -- insert only first 10 characters of title,in order to prevent overflow
+    local codepoints = {utf8.codepoint(item.title, 1, 25)}
+    local title = {}
+    for _, c in ipairs(codepoints) do title[#title+1]  = utf8.char(c) end
+    t[#t+1] = string.format('%s -- %s', item.callno, table.concat(title)) 
+  end
+  return table.concat(t, "\\\\\n")
+end
+
 -- join records for each person
 local function join_records(records)
   local persons = {}
@@ -78,7 +118,7 @@ local function join_records(records)
     local id = rec["user_barcode"]
     local person = persons[id] 
     if not person then
-      person = {}
+      person = {items = {}} -- 
       for k,v in pairs(rec) do person[k] = v end
       person.callno = "" -- we need to collect call numbers
       person.pos = i -- we want to sort persons as they appeared in the xml file
@@ -86,12 +126,17 @@ local function join_records(records)
       person.submitDate = rec.open_date .. " " .. rec.open_hour -- construct submit time
       persons[id] = person 
     end
-    person.callno = person.callno ..  rec.callno .."\\\\\n" -- join callnumbers with newlines
+    local title = rec.bibinfo:match("^([^%/]+)") or ""
+    table.insert(person.items , {callno =rec.callno, title = title})
+    -- person.callno = person.callno ..  rec.callno .."\\\\\n" -- join callnumbers with newlines
   end
   -- make new sorted table
   local newrecords = {}
   for _, record in pairs(persons) do
-    record["callno"] =  sort_callnos(record["callno"]) -- sort call numbers
+    local sorted_items = sort_aleph_callnos(record.items)
+    record.callno = get_callnos_for_print(sorted_items)
+    record.qrcallno = get_joined_callnos(sorted_items) -- simplified callnos for QR code
+    -- record["callno"] =  sort_callnos(record["callno"]) -- sort call numbers
     newrecords[#newrecords + 1] = record
   end
   table.sort(newrecords, function(a,b) return a.pos < b.pos end)
@@ -115,6 +160,7 @@ local function clean_xml(input_file)
   return newinput
   
 end
+
 
 function M.parse_xml(inputfile, map)
   -- map should be in the format {xmltag="name"}
@@ -144,7 +190,7 @@ end
 
 function M.fill_template(template, messages)
   local lines = {}
-  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$userId}%%'
+  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$userId}{$qrcallno}%%'
   for i, msg in ipairs(messages) do
     -- simple string interpolation
     lines[i] = cmd_template:gsub("%$([%a]+)", function(key) return msg[key] end)
@@ -159,7 +205,11 @@ function M.make_tsv(messages)
   local header = {}
   local row_to_tsv = function(row)
     local t = {}
-    for _, val in ipairs(row) do t[#t+1] = '"' .. val .. '"' end
+    for i, val in ipairs(row) do 
+      if type(val) ~= "table" then
+        t[#t+1] = '"' .. val .. '"' 
+      end
+    end
     return table.concat(t, "\t")
   end
   local make_row = function(row, header)
