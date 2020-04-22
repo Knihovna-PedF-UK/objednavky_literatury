@@ -1,4 +1,5 @@
 local M = {}
+require "utf8"
 local default_map = {["ra72bc06000374e3582c79c0c15dfbc90"]="name",rc4d9391b9ba34627ad82aab3000a4550= "callno", r223b7dd8e7fb4f1292eb2a8bdb09fa3c="date", rcda891ad0f374935bccb4e17273bf0b8="barcode", r5f5ef809a901400eb72cda41237c8385="mail" }
 local parse_prir = require "parse_prir"
 
@@ -105,7 +106,7 @@ local function get_callnos_for_print(items)
     local codepoints = {utf8.codepoint(item.title, 1, 25)}
     local title = {}
     for _, c in ipairs(codepoints) do title[#title+1]  = utf8.char(c) end
-    t[#t+1] = string.format('%s -- %s', item.callno, table.concat(title)) 
+    t[#t+1] = string.format('\\textbf{%s} -- %s', item.callno, table.concat(title)) 
   end
   return table.concat(t, "\\\\\n")
 end
@@ -200,13 +201,18 @@ function M.fill_template(template, messages)
 end
  
 
-function M.make_tsv(messages)
+function M.make_tsv(messages, used_fields)
   local t = {}
   local header = {}
+  local used_fields = used_fields or {}
+  local to_print = {}
+  for _, x in ipairs(used_fields) do
+    to_print[x] = true 
+  end
   local row_to_tsv = function(row)
     local t = {}
     for i, val in ipairs(row) do 
-      if type(val) ~= "table" then
+      if type(val) ~= "table"  then
         t[#t+1] = '"' .. val .. '"' 
       end
     end
@@ -218,7 +224,7 @@ function M.make_tsv(messages)
     return t
   end
   --make header first
-  for k, _ in pairs(messages[1]) do header[#header+1] =  k end
+  for k, _ in pairs(messages[1]) do if to_print[k] then header[#header+1] =  k end end
   table.sort(header) -- I just don't want the random order
   t[#t+1] = row_to_tsv(header)
   for _, row in ipairs(messages) do

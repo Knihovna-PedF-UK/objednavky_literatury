@@ -1,3 +1,5 @@
+local dir = arg[0]:gsub("alephobjednavky.lua$","")
+package.path = dir .."?.lua;" .. package.path
 local objednavky = require "objednavky"
 
 local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$qrcallno}%%'
@@ -17,7 +19,7 @@ local input = arg[1]
 
 local messages = objednavky.parse_xml(input, map)
 messages = objednavky.make_id(messages, os.date("%m-%d-%H-"))
-local f = io.open("template.tex", "r")
+local f = io.open(dir .. "template.tex", "r")
 local template = f:read("*a")
 f:close()
 
@@ -27,7 +29,7 @@ lualatex:write(content)
 lualatex:close()
 
 --- make csv file for mail merge
-local tsv = objednavky.make_tsv(messages)
+local tsv = objednavky.make_tsv(messages, {"mail", "qrcallno", "name", "submitDate"})
 local tsv_file = io.open(input .. ".csv", "w")
 tsv_file:write(tsv)
 tsv_file:close()
