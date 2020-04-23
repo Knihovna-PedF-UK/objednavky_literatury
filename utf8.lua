@@ -15,6 +15,7 @@ function myutf.codepoint(s, start, stop)
 end
 
 myutf.char = unicode.utf8.char
+myutf.len = unicode.utf8.len
 
 utf8 = utf8 or myutf
 
