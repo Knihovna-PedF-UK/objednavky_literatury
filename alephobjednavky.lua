@@ -29,10 +29,13 @@ lualatex:write(content)
 lualatex:close()
 
 --- make csv file for mail merge
-local tsv = objednavky.make_tsv(messages, {"mail", "qrcallno", "name", "submitDate"})
-local tsv_file = io.open(input .. ".csv", "w")
+local csv_filename = input .. ".csv"
+local tsv = objednavky.make_tsv(messages, {"userId", "mail", "qrcallno", "name", "submitDate"})
+local tsv_file = io.open(csv_filename, "w")
 tsv_file:write(tsv)
 tsv_file:close()
+-- convert tsv file to excel
+os.execute('soffice --headless --convert-to xlsx --infilter="CSV:9/44,34,76,1,,1033" ' .. csv_filename)
 
 os.execute("xdg-open ".. input .. ".pdf")
 
