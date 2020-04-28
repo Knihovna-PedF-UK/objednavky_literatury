@@ -1,0 +1,629 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.4.15)  20 APR 2020 14:26
+ restricted system commands enabled.
+**\documentclass[a4paper,landscape]{article}
+Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
+Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initialization
+Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended collection.
+Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / config file reader
+luaotfload | conf : Root cache directory is /home/michal/.texlive2020/texmf-var/luatex-cache/generic-dev/names.
+luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse-resolved path “/usr/local/texlive/2020/texmf-dist/tex/luatex/luaotfload/fontloader-2020-01-26.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback handling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode helpers
+Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolvers
+luaotfload | conf : Root cache directory is /home/michal/.texlive2020/texmf-var/luatex-cache/generic-dev/names.
+Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-harf-define 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script helpers
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Lua module: luaotfload-harf-plug 2020-02-02 3.12 luaotfload submodule / database
+Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'.
+Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
+Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
+Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
+Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliary functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multiscript
+Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicode
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'.
+
+*\usepackage{fontspec}
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/michal/.texlive2020/texm
+f-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+*\setmainfont{Fira Sans}
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-04-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count171
+\l__pdf_internal_box=\box45
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count172
+\g__xparse_grabber_int=\count173
+\l__xparse_m_args_int=\count174
+\l__xparse_v_nesting_int=\count175
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX (/
+usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count176
+\l__fontspec_language_int=\count177
+\l__fontspec_strnum_int=\count178
+\l__fontspec_tmp_int=\count179
+\l__fontspec_tmpa_int=\count180
+\l__fontspec_tmpb_int=\count181
+\l__fontspec_tmpc_int=\count182
+\l__fontspec_em_int=\count183
+\l__fontspec_emdef_int=\count184
+\l__fontspec_strong_int=\count185
+\l__fontspec_strongdef_int=\count186
+\l__fontspec_tmpa_dim=\dimen135
+\l__fontspec_tmpb_dim=\dimen136
+\l__fontspec_tmpc_dim=\dimen137
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+*\usepackage[code=Code39,X=.35mm,ratio=2.15,H=1cm]{makebarcode}
+luaotfload | cache : Lookup cache loaded from /home/michal/.texlive2020/texmf-va
+r/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Font family 'FiraSans(0)' created for font 'Fira Sans'
+(fontspec)             with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FiraSans:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"FiraSans:mode=node;script=latn;language=dflt;+tlig;+s
+mcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FiraSans/B:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"FiraSans/B:mode=node;script=latn;language=dflt;+tlig;
++smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FiraSans/I:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"FiraSans/I:mode=node;script=latn;language=dflt;+tlig;
++smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FiraSans/BI:mode=node;script=latn;language=dflt;+tlig
+;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"FiraSans/BI:mode=node;script=latn;language=dflt;+tlig
+;+smcp;"
+
+
+*\usepackage{ncccropbox}
+(/usr/local/texlive/2020/texmf-dist/tex/latex/makebarcode/makebarcode.sty
+Package: makebarcode 2008/07/27 Make various bar codes
+Package makebarcode Info: $Id: makebarcode.sty 224 2008-07-26 23:07:27Z zw $.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+\ZWbc@ctr=\count187
+\ZWbc@dimX=\dimen138
+\ZWbc@dimH=\dimen139
+\ZWbc@dimB=\dimen140
+\ZWbc@dim@=\dimen141
+\ZWbc@hpbox=\box46
+\ZWbc@ITFbox=\box47
+\ZWbc@ITFwidth=\dimen142
+\ZWbc@ITFtoks=\toks16
+)
+*\usepackage{qrcode}
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ncctools/ncccropbox.sty
+Package: ncccropbox 2004/11/24 v1.1 Crop Box Package (NCC)
+)
+*\usepackage[margin=0.5cm]{geometry}
+(/usr/local/texlive/2020/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count188
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count189
+\c@qr@j=\count190
+\qr@a=\count191
+\qr@b=\count192
+\qr@c=\count193
+\qr@for@depth=\count194
+\qr@for@maxdepth=\count195
+\qr@for@start=\count196
+\qr@for@end=\count197
+\qr@for@step=\count198
+\qr@newforcount=\count199
+\qr@newforcount=\count266
+\qr@desiredheight=\skip49
+\qr@modulesize=\skip50
+\qr@minipagewidth=\skip51
+\c@maski=\count267
+\c@maskj=\count268
+\c@totalones=\count269
+\c@penaltyi=\count270
+\c@penaltyii=\count271
+\c@penaltyiii=\count272
+\c@penaltyiv=\count273
+\c@qr@hexchars=\count274
+\qr@newforcount=\count275
+\c@qr@divisionsremaining=\count276
+)
+*\parindent=0pt
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks19
+)
+*\pagestyle{empty}
+
+*\newcommand\objednavka[8]{%
+
+*  \cropbox[72mm][198mm]{%
+
+*    \begin{minipage}{64mm}%
+
+*      \vtop to 190mm{%
+
+*        \vspace{2mm}
+
+*        \textbf{ID Objednávky}:\\ #7\\%
+
+*        \textbf{Jméno}:\\ #1\\%
+
+*        \textbf{ID uživatele}:\\ #8\\%
+
+*        \textbf{ČK uživatele}:\\#2\\%
+
+*        \textbf{E-mail}: \\ #5\\%
+
+*        \textbf{Čas objednávky}: \\ #3\\%
+
+*        \\ ~ \\
+
+*        \barcode{#2}\\%
+
+*        \\ ~ \\
+
+*        \textbf{Signatury:}\\%
+
+*        #6%
+
+*        \\ ~ \\
+
+*        \vfill
+
+*        \qrcode{#1:#5:#6:#7:#8}
+
+*        \vspace{0mm}
+
+*      }
+
+*    \end{minipage}
+
+*  }\allowbreak%
+
+*}%
+
+*\begin{document}
+No file objednavky/pedfr_obj_sklad_20200420_1415.aux.
+
+\openout1 = objednavky/pedfr_obj_sklad_20200420_1415.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 0.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 0.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 0.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 0.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 0.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 0.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 0.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 0.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 0.
+LaTeX Font Info:    Redeclaring math accent \check on input line 0.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 0.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 0.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 0.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 0.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 0.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 0.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FiraSans(0)/m/n on input line 0.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 0.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FiraSans(0)/m/n on input line 0.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/FiraSans(0)/m/n --> TU/FiraSans(0)/m/n on input line 
+0.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/FiraSans(0)/m/it on input line 0.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/FiraSans(0)/b/n on input line 0.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 0.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 0.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/FiraSans(0)/m/n --> TU/FiraSans(0)/b/n on input line 
+0.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/FiraSans(0)/b/it on input line 0.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 0.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 0.
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen151
+\scratchbox=\box48
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen152
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks21
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(14.22636pt, 816.59412pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 569.05515pt, 14.22636pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=816.59412pt
+* \textheight=569.05515pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-95.04362pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+*\objednavka{Kavanová, Karolína}{BC183649483}{20/04/2020 09:49}{}{karolina.ka
+vanova@gmail.com}{Os7f\\
+
+*U627ch\\
+
+*U1990/1\\
+
+*U2582b\\
+
+*U2699\\}{04-20-1}{36279811}%
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+
+
+<QR code requested for "Kavanová, Karolína:karolina.kavanova@gmail.com:Os7f\ 
+U627ch\ U1990/1\ U2582b\ U2699\:04-20-1:36279811" in version 0-M.>
+
+<Calculating QR code for "Kavanová, Karolína:karolina.kavanova@gmail.com:Os7f
+\ U627ch\ U1990/1\ U2582b\ U2699\:04-20-1:36279811" in version 6-M.>
+<Splitting off block 1> <Splitting off block 2> <Splitting off block 3>
+<Splitting off block 4> <Making error block 1> <Making error block 2>
+<Making error block 3> <Making error block 4>
+<Interleaving datablocks of length 27\ and 28:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, .>
+<Interleaving errorblocks of length 16:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+12, 13, 14, 15, 16, .><Interleaving complete.> <Writing data... done.>
+<Applying Mask 0... done. Calculating penalty... penalty is 1977>
+<Applying Mask 1... done. Calculating penalty... penalty is 1978>
+<Applying Mask 2... done. Calculating penalty... penalty is 1631>
+<Applying Mask 3... done. Calculating penalty... penalty is 1677>
+<Applying Mask 4... done. Calculating penalty... penalty is 1623>
+<Applying Mask 5... done. Calculating penalty... penalty is 1919>
+<Applying Mask 6... done. Calculating penalty... penalty is 1768>
+<Applying Mask 7... done. Calculating penalty... penalty is 1733>
+<Selected Mask 4>
+<Encoding and writing format string... done.>
+<Encoding and writing version information... done.>
+<Saving QR code to memory... done.>
+<Writing QR code to aux file... done.>
+<Printing matrix...
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 0.
+ done.>
+
+
+*\objednavka{Surmová, Eliška}{BC996506442}{20/04/2020 11:06}{}{surmel@seznam.
+cz}{H3444c\\}{04-20-2}{96506442}%
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 0
+
+ []
+
+
+
+
+<QR code requested for "Surmová, Eliška:surmel@seznam.cz:H3444c\:04-20-2:9650
+6442" in version 0-M.>
+
+<Calculating QR code for "Surmová, Eliška:surmel@seznam.cz:H3444c\:04-20-2:96
+506442" in version 4-M.>
+<Splitting off block 1> <Splitting off block 2> <Making error block 1>
+<Making error block 2> <Interleaving datablocks of length 32\ and 33:  1, 2,
+3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, .>
+<Interleaving errorblocks of length 18:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+12, 13, 14, 15, 16, 17, 18, .><Interleaving complete.> <Writing data...
+done.>
+<Applying Mask 0... done. Calculating penalty... penalty is 1462>
+<Applying Mask 1... done. Calculating penalty... penalty is 1415>
+<Applying Mask 2... done. Calculating penalty... penalty is 1287>
+<Applying Mask 3... done. Calculating penalty... penalty is 1378>
+<Applying Mask 4... done. Calculating penalty... penalty is 1352>
+<Applying Mask 5... done. Calculating penalty... penalty is 1348>
+<Applying Mask 6... done. Calculating penalty... penalty is 1264>
+<Applying Mask 7... done. Calculating penalty... penalty is 1364>
+<Selected Mask 6>
+<Encoding and writing format string... done.>
+<Encoding and writing version information... done.>
+<Saving QR code to memory... done.>
+<Writing QR code to aux file... done.>
+<Printing matrix... done.>
+
+
+*\end{document}
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./objednavky/pedfr_obj_sklad_20200420_1415.aux
+<Reading QR code for "Kavanová,Karolína:karolina.kavanova@gmail.com:Os7f\U627
+ch\U1990/1\U2582b\U2699\:04-20-1:36279811" at level 6-M from aux file.>
+
+<Reading QR code for "Surmová,Eliška:surmel@seznam.cz:H3444c\:04-20-2:9650644
+2" at level 4-M from aux file.>
+)
+
+Here is how much of LuaTeX's memory you used:
+ 11847 strings out of 480991
+ 100000,552014 words of node,token memory allocated
+ 411 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 49 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:5943,3:169,4:5,5:271,6:79,7:881,8:1,9:5933,10:1,11:18
+ 29272 multiletter control sequences out of 65536+600000
+ 50 fonts using 10475299 bytes
+ 115i,7n,311p,1824b,1853s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf
+></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.ot
+f>
+Output written on objednavky/pedfr_obj_sklad_20200420_1415.pdf (1 page, 17063 by
+tes).
+
+PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

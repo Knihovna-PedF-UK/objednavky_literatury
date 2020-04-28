@@ -1,0 +1,3006 @@
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Aprílová škola / Jiří Žáček ; ilustroval Adolf Born.   Praha : Albatros, 1989 (#000270312)</bib-info>
+<z13-doc-number>270312</z13-doc-number>
+<z13-year>1989</z13-year>
+<z13-open-date>19/08/2005</z13-open-date>
+<z13-update-date>07/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Žáček, Jiří, 1945- jk01152946 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Aprílová škola /</z13-title>
+<z13-imprint-code>260</z13-imprint-code>
+<z13-imprint>Praha : Albatros, 1989</z13-imprint>
+<z13-isbn-issn-code></z13-isbn-issn-code>
+<z13-isbn-issn></z13-isbn-issn>
+<z13-upd-time-stamp>201705062312489</z13-upd-time-stamp>
+<z13u-doc-number>000270312</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Aprílová škola / Žáček, Jiří, 1945- -- Praha : Albatros, 1989 -- 3. (2. rozš.) vyd. -- 63 s. : [000270312]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Aprílová škola / Jiří Žáček ; ilustroval Adolf Born</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Žáček, Jiří, 1945-##Aprílová škola / Jiří Žáček ; ilustroval Adolf Born##3. (2. rozš.) vyd.##Praha : Albatros, 1989##63 s. : il.</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>63 s. : il.</z13u-user-defined-4>
+<z13u-user-defined-5-code>260</z13u-user-defined-5-code>
+<z13u-user-defined-5>Albatros,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- a=Praha : * b=Albatros, * c=1989 * . -- (Klub mladých čtenářů.</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Žáček, Jiří, Aprílová škola / Klub mladých čtenářů  Praha : Albatros, 1989  63 s. : il.</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8>Pro začínající čtenáře.</z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9></z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>270312</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2598902039</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>19/08/2005</z30-open-date>
+<z30-update-date>19/08/2005</z30-update-date>
+<z30-cataloger></z30-cataloger>
+<z30-date-last-return>28/03/2018</z30-date-last-return>
+<z30-hour-last-return>14:49</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2502</z30-ip-last-return>
+<z30-no-loans>037</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be12284</z30-call-no>
+<z30-call-no-key>be12284</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation></z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number></z30-order-number>
+<z30-inventory-number>2598902039</z30-inventory-number>
+<z30-inventory-number-date>19/08/2005</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price></z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code></z30-vendor-code>
+<z30-invoice-number></z30-invoice-number>
+<z30-line-number>00000</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>026</z30-maintenance-count>
+<z30-process-status-date>00000000</z30-process-status-date>
+<z30-upd-time-stamp>201803281449453</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>000270312</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:53</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331021</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231253311</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374133</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Romské pohádky = Romane paramisa / Elena Lacková.   Praha : Radix, 1999 (#000380752)</bib-info>
+<z13-doc-number>380752</z13-doc-number>
+<z13-year>1999</z13-year>
+<z13-open-date>29/01/2006</z13-open-date>
+<z13-update-date>07/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Lacková, Elena, 1921-2003 jn19990209465 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Romské pohádky =</z13-title>
+<z13-imprint-code>264 1</z13-imprint-code>
+<z13-imprint>Praha : Radix, 1999</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>80-86031-25-X (brožováno)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062313316</z13-upd-time-stamp>
+<z13u-doc-number>000380752</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Romské pohádky =Romane paramisa / Lacková, Elena, 1921-2003 -- Praha : Radix, 1999 -- Vydání první -- 134 stran : 23 cm [000380752]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Romské pohádky = Romane paramisa / Elena Lacková</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Lacková, Elena, 1921-2003##Romské pohádky = Romane paramisa / Elena Lacková##Vydání první##134 stran : ilustrace (převážně barevné) ; 23 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>134 stran : ilustrace (převážně barevné) ; 23 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>264 1</z13u-user-defined-5-code>
+<z13u-user-defined-5>Radix,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6></z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Lacková, Elena, Romské pohádky =Romane paramisa /  134 stran : ilustrace (převážně barevné) ; 23 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8>Kniha je překladem ze slovenštiny</z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>1 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>380752</z30-doc-number>
+<z30-item-sequence>    5.0</z30-item-sequence>
+<z30-barcode>2592001758</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>19/08/2005</z30-open-date>
+<z30-update-date>21/07/2015</z30-update-date>
+<z30-cataloger>PAN</z30-cataloger>
+<z30-date-last-return>03/01/2018</z30-date-last-return>
+<z30-hour-last-return>11:48</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2501</z30-ip-last-return>
+<z30-no-loans>018</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be13920</z30-call-no>
+<z30-call-no-key>be13920</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation></z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number></z30-order-number>
+<z30-inventory-number>2592001758</z30-inventory-number>
+<z30-inventory-number-date>19/08/2005</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price></z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000380752</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code></z30-vendor-code>
+<z30-invoice-number></z30-invoice-number>
+<z30-line-number>00000</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>015</z30-maintenance-count>
+<z30-process-status-date>20150721</z30-process-status-date>
+<z30-upd-time-stamp>201801031148053</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>000380752</z37-doc-number>
+<z37-item-sequence>000050</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:54</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331022</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231254101</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374134</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Broučci : pro malé i velké děti / Jan Karafiát, Jiří Trnka.   Praha : Albatros, 2004 (#000521663)</bib-info>
+<z13-doc-number>521663</z13-doc-number>
+<z13-year>2004</z13-year>
+<z13-open-date>02/11/2006</z13-open-date>
+<z13-update-date>08/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Karafiát, Jan, 1846-1929 jk01052941 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Broučci :</z13-title>
+<z13-imprint-code>264 1</z13-imprint-code>
+<z13-imprint>Praha : Albatros, 2004</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>80-00-01373-8 (vázáno)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062316108</z13-upd-time-stamp>
+<z13u-doc-number>000521663</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Broučci :pro malé i velké děti / Karafiát, Jan, 1846-1929 -- Praha : Albatros, 2004 -- 8. vydání v Albatrosu -- 87 stran : 27 cm [000521663]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Broučci : pro malé i velké děti / Jan Karafiát, Jiří Trnka</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Karafiát, Jan, 1846-1929##Broučci : pro malé i velké děti / Jan Karafiát, Jiří Trnka##8. vydání v Albatrosu##87 stran : barevné ilustrace ; 27 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>87 stran : barevné ilustrace ; 27 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>264 1</z13u-user-defined-5-code>
+<z13u-user-defined-5>Albatros,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- (Klub mladých čtenářů.</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Karafiát, Jan, Broučci :pro malé i velké děti / Klub mladých čtenářů  87 stran : barevné ilustrace ; 27 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>26 * 25</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10>pohádky české</z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>521663</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2592062975</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>02/11/2006</z30-open-date>
+<z30-update-date>10/11/2006</z30-update-date>
+<z30-cataloger>NEK</z30-cataloger>
+<z30-date-last-return>08/11/2019</z30-date-last-return>
+<z30-hour-last-return>15:48</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2501</z30-ip-last-return>
+<z30-no-loans>045</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be15637</z30-call-no>
+<z30-call-no-key>be15637</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>6743</z30-order-number>
+<z30-inventory-number>2592062975</z30-inventory-number>
+<z30-inventory-number-date>09/11/2006</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>162.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code></z30-vendor-code>
+<z30-invoice-number></z30-invoice-number>
+<z30-line-number>00000</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>042</z30-maintenance-count>
+<z30-process-status-date>00000000</z30-process-status-date>
+<z30-upd-time-stamp>201911081548150</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>000521663</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:52</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331018</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231252419</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374135</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Jak jsem dostal ségru / Blanka Čapková ; ilustrovala Eva Mastníková.   Praha : Albatros, 2009 (#001431375)</bib-info>
+<z13-doc-number>1431375</z13-doc-number>
+<z13-year>2009</z13-year>
+<z13-open-date>28/02/2012</z13-open-date>
+<z13-update-date>09/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Čapková, Blanka, 1955- xx0101512 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Jak jsem dostal ségru /</z13-title>
+<z13-imprint-code>260</z13-imprint-code>
+<z13-imprint>Praha : Albatros, 2009</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-00-02348-9 (váz.)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062333166</z13-upd-time-stamp>
+<z13u-doc-number>001431375</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Jak jsem dostal ségru / Čapková, Blanka, 1955- -- Praha : Albatros, 2009 -- 1. vyd. -- 108 s. : 21 cm [001431375]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Jak jsem dostal ségru / Blanka Čapková ; ilustrovala Eva Mastníková</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Čapková, Blanka, 1955-##Jak jsem dostal ségru / Blanka Čapková ; ilustrovala Eva Mastníková##1. vyd.##Praha : Albatros, 2009##108 s. : barev. il. ; 21 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>108 s. : barev. il. ; 21 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>260</z13u-user-defined-5-code>
+<z13u-user-defined-5>Albatros,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- a=Praha : * b=Albatros, * c=2009 * . -- (Druhé čtení.</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Čapková, Blanka, Jak jsem dostal ségru / Druhé čtení  Praha : Albatros, 2009  108 s. : barev. il. ; 21 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>25 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>1431376</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2592120466</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>28/02/2012</z30-open-date>
+<z30-update-date>29/03/2012</z30-update-date>
+<z30-cataloger>MANK</z30-cataloger>
+<z30-date-last-return>04/04/2019</z30-date-last-return>
+<z30-hour-last-return>11:12</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2502</z30-ip-last-return>
+<z30-no-loans>012</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be16340</z30-call-no>
+<z30-call-no-key>be16340</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>46565</z30-order-number>
+<z30-inventory-number>2592120466</z30-inventory-number>
+<z30-inventory-number-date>14/03/2012</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>161.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>ACAD-PEDF</z30-vendor-code>
+<z30-invoice-number>251200060</z30-invoice-number>
+<z30-line-number>00010</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>012</z30-maintenance-count>
+<z30-process-status-date>20120329</z30-process-status-date>
+<z30-upd-time-stamp>201904041112087</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>001431376</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:52</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331016</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231252023</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374136</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>To je Paříž / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth].   Praha : Baobab, 2013 (#001856211)</bib-info>
+<z13-doc-number>1856211</z13-doc-number>
+<z13-year>2013</z13-year>
+<z13-open-date>17/10/2014</z13-open-date>
+<z13-update-date>10/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Šašek, Miroslav, 1916-1980 jk01122538 aut ill</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>To je Paříž /</z13-title>
+<z13-imprint-code>260</z13-imprint-code>
+<z13-imprint>Praha : Baobab, 2013</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-87060-69-8 (váz.)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062336462</z13-upd-time-stamp>
+<z13u-doc-number>001856211</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>To je Paříž / Šašek, Miroslav, 1916-1980 -- Praha : Baobab, 2013 -- 1. vyd. -- 60 s. : 32 cm [001856211]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>To je Paříž / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth]</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Šašek, Miroslav, 1916-1980##To je Paříž / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth]##1. vyd.##Praha : Baobab, 2013##60 s. : barev. il. ; 32 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>60 s. : barev. il. ; 32 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>260</z13u-user-defined-5-code>
+<z13u-user-defined-5>Baobab,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- a=Praha : * b=Baobab, * c=2013 * . -- (To je--.</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Šašek, Miroslav, To je Paříž / To je--  Praha : Baobab, 2013  60 s. : barev. il. ; 32 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>7 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>1856213</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2592144638</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>17/10/2014</z30-open-date>
+<z30-update-date>29/04/2015</z30-update-date>
+<z30-cataloger>VAL</z30-cataloger>
+<z30-date-last-return>09/01/2020</z30-date-last-return>
+<z30-hour-last-return>13:18</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2501</z30-ip-last-return>
+<z30-no-loans>009</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-depozitář</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>2Be229</z30-call-no>
+<z30-call-no-key>2be229</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>67382</z30-order-number>
+<z30-inventory-number>2592144638</z30-inventory-number>
+<z30-inventory-number-date>17/10/2014</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>224.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>KOSMAS-PEDF</z30-vendor-code>
+<z30-invoice-number>10-25880/2014</z30-invoice-number>
+<z30-line-number>00008</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>009</z30-maintenance-count>
+<z30-process-status-date>20141017</z30-process-status-date>
+<z30-upd-time-stamp>202001091318110</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>001856213</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:53</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331019</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231253048</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374137</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>To je Londýn / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth].   Praha : Baobab, 2013 (#001856258)</bib-info>
+<z13-doc-number>1856258</z13-doc-number>
+<z13-year>2013</z13-year>
+<z13-open-date>17/10/2014</z13-open-date>
+<z13-update-date>10/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Šašek, Miroslav, 1916-1980 jk01122538 aut ill</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>To je Londýn /</z13-title>
+<z13-imprint-code>260</z13-imprint-code>
+<z13-imprint>Praha : Baobab, 2013</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-87060-73-5 (váz.)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062336464</z13-upd-time-stamp>
+<z13u-doc-number>001856258</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>To je Londýn / Šašek, Miroslav, 1916-1980 -- Praha : Baobab, 2013 -- 1. vyd. -- 59 s. : 32 cm [001856258]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>To je Londýn / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth]</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Šašek, Miroslav, 1916-1980##To je Londýn / M. Šašek ; [přeložil Jiří Dvořák ; podle původního vydání z roku 1959 pro tisk připravil Juraj Horváth]##1. vyd.##Praha : Baobab, 2013##59 s. : barev. il. ; 32 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>59 s. : barev. il. ; 32 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>260</z13u-user-defined-5-code>
+<z13u-user-defined-5>Baobab,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- a=Praha : * b=Baobab, * c=2013 * . -- (To je--.</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Šašek, Miroslav, To je Londýn / To je--  Praha : Baobab, 2013  59 s. : barev. il. ; 32 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>7 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>1856258</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2592144637</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>17/10/2014</z30-open-date>
+<z30-update-date>17/10/2014</z30-update-date>
+<z30-cataloger>SVOBODOVA</z30-cataloger>
+<z30-date-last-return>09/01/2020</z30-date-last-return>
+<z30-hour-last-return>13:16</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2501</z30-ip-last-return>
+<z30-no-loans>007</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-depozitář</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>2Be228</z30-call-no>
+<z30-call-no-key>2be228</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>67394</z30-order-number>
+<z30-inventory-number>2592144637</z30-inventory-number>
+<z30-inventory-number-date>17/10/2014</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>225.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>KOSMAS-PEDF</z30-vendor-code>
+<z30-invoice-number>10-25880/2014</z30-invoice-number>
+<z30-line-number>00011</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>007</z30-maintenance-count>
+<z30-process-status-date>20141017</z30-process-status-date>
+<z30-upd-time-stamp>202001091316281</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>001856258</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:53</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331020</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231253164</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374138</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Chci být dospělý / Vhrsti.   Praha : Mladá fronta, 2013 (#001878895)</bib-info>
+<z13-doc-number>1878895</z13-doc-number>
+<z13-year>2013</z13-year>
+<z13-open-date>06/01/2015</z13-open-date>
+<z13-update-date>10/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1000</z13-author-code>
+<z13-author>Vhrsti, 1975- mzk2006368217 aut ill</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Chci být dospělý /</z13-title>
+<z13-imprint-code>260</z13-imprint-code>
+<z13-imprint>Praha : Mladá fronta, 2013</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-204-2897-4 (váz.)</z13-isbn-issn>
+<z13-upd-time-stamp>201705062337495</z13-upd-time-stamp>
+<z13u-doc-number>001878895</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Chci být dospělý / Vhrsti, 1975- -- Praha : Mladá fronta, 2013 -- 1. vyd. -- 52 s. : 22 cm [001878895]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Chci být dospělý / Vhrsti</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Vhrsti, 1975-##Chci být dospělý / Vhrsti##1. vyd.##Praha : Mladá fronta, 2013##52 s. : barev. il. ; 22 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>52 s. : barev. il. ; 22 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>260</z13u-user-defined-5-code>
+<z13u-user-defined-5>Mladá fronta,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6>-- a=Praha : * b=Mladá fronta, * c=2013 * .</z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Vhrsti, Chci být dospělý /  Praha : Mladá fronta, 2013  52 s. : barev. il. ; 22 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>25 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>1878895</z30-doc-number>
+<z30-item-sequence>    2.0</z30-item-sequence>
+<z30-barcode>2592150229</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>03/02/2015</z30-open-date>
+<z30-update-date>05/02/2015</z30-update-date>
+<z30-cataloger>SVOBODOVA</z30-cataloger>
+<z30-date-last-return>06/09/2019</z30-date-last-return>
+<z30-hour-last-return>10:06</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2502</z30-ip-last-return>
+<z30-no-loans>009</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be16963a</z30-call-no>
+<z30-call-no-key>be16963a</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>70043</z30-order-number>
+<z30-inventory-number>2592150229</z30-inventory-number>
+<z30-inventory-number-date>05/02/2015</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>187.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>KOSMAS-PEDF</z30-vendor-code>
+<z30-invoice-number>10-2081/2015</z30-invoice-number>
+<z30-line-number>00009</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>009</z30-maintenance-count>
+<z30-process-status-date>20150205</z30-process-status-date>
+<z30-upd-time-stamp>201909061006028</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>001878895</z37-doc-number>
+<z37-item-sequence>000020</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:51</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331015</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231251375</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374139</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Moře slané vody : (co šuměla mušle a co přišlo lahvovou poštou) / Radek Malý ; ilustroval Pavel Čech.   Praha : Albatros, 2014 (#001878936)</bib-info>
+<z13-doc-number>1878936</z13-doc-number>
+<z13-year>2014</z13-year>
+<z13-open-date>06/01/2015</z13-open-date>
+<z13-update-date>10/04/2020</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Malý, Radek, 1977- xx0000314 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Moře slané vody :</z13-title>
+<z13-imprint-code>264 1</z13-imprint-code>
+<z13-imprint>Praha : Albatros, 2014</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-00-03467-6 (vázáno)</z13-isbn-issn>
+<z13-upd-time-stamp>201904181454027</z13-upd-time-stamp>
+<z13u-doc-number>001878936</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Moře slané vody :(co šuměla mušle a co přišlo lahvovou poštou) / Malý, Radek, 1977- -- Praha : Albatros, 2014 -- 1. vydání -- [44] stran : 23 cm [001878936]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Moře slané vody : (co šuměla mušle a co přišlo lahvovou poštou) / Radek Malý ; ilustroval Pavel Čech</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Malý, Radek, 1977-##Moře slané vody : (co šuměla mušle a co přišlo lahvovou poštou) / Radek Malý ; ilustroval Pavel Čech##1. vydání##[44] stran : barevné ilustrace ; 23 cm</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>[44] stran : barevné ilustrace ; 23 cm</z13u-user-defined-4>
+<z13u-user-defined-5-code>264 1</z13u-user-defined-5-code>
+<z13u-user-defined-5>Albatros,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6></z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Malý, Radek, Moře slané vody :(co šuměla mušle a co přišlo lahvovou poštou) /  [44] stran : barevné ilustrace ; 23 cm</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8></z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>25 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>1878936</z30-doc-number>
+<z30-item-sequence>    2.0</z30-item-sequence>
+<z30-barcode>2592190651</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>16/04/2019</z30-open-date>
+<z30-update-date>18/04/2019</z30-update-date>
+<z30-cataloger>MANK</z30-cataloger>
+<z30-date-last-return>20/05/2019</z30-date-last-return>
+<z30-hour-last-return>15:52</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2502</z30-ip-last-return>
+<z30-no-loans>001</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be16970a</z30-call-no>
+<z30-call-no-key>be16970a</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>101029</z30-order-number>
+<z30-inventory-number>2592190651</z30-inventory-number>
+<z30-inventory-number-date>18/04/2019</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>199.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>KOSMAS-PEDF</z30-vendor-code>
+<z30-invoice-number>10-8148/2019</z30-invoice-number>
+<z30-line-number>00030</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>001</z30-maintenance-count>
+<z30-process-status-date>20190418</z30-process-status-date>
+<z30-upd-time-stamp>201905201552515</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>001878936</z37-doc-number>
+<z37-item-sequence>000020</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:54</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331024</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231254225</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374140</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>
+## - XML_XSL
+<?xml version="1.0"?>
+<printout>
+<form-name>hold-request-slip</form-name>
+<form-language>CZE</form-language>
+<form-format>00</form-format>
+<subject>Vyrizena rezervace</subject>
+
+
+<section-01>
+<form-date>23/04/2020</form-date>
+<bib-info>Žvejkačky / Marka Míková ; ilustroval Juraj Horváth.   Praha : Baobab, 2015 (#002278706)</bib-info>
+<z13-doc-number>2278706</z13-doc-number>
+<z13-year>2015</z13-year>
+<z13-open-date>04/06/2019</z13-open-date>
+<z13-update-date>08/07/2019</z13-update-date>
+<z13-call-no-key></z13-call-no-key>
+<z13-call-no-code></z13-call-no-code>
+<z13-call-no></z13-call-no>
+<z13-author-code>1001</z13-author-code>
+<z13-author>Míková, Marka, 1959- ola2002158889 aut</z13-author>
+<z13-title-code>24510</z13-title-code>
+<z13-title>Žvejkačky /</z13-title>
+<z13-imprint-code>264 1</z13-imprint-code>
+<z13-imprint>Praha : Baobab, 2015</z13-imprint>
+<z13-isbn-issn-code>020</z13-isbn-issn-code>
+<z13-isbn-issn>978-80-7515-015-8 (brožováno)</z13-isbn-issn>
+<z13-upd-time-stamp>201906051131216</z13-upd-time-stamp>
+<z13u-doc-number>002278706</z13u-doc-number>
+<z13u-user-defined-1-code></z13u-user-defined-1-code>
+<z13u-user-defined-1>Žvejkačky / Míková, Marka, 1959- -- Praha : Baobab, 2015 -- 1. vydání -- 29 nečíslovaných stran : 24 cm + [002278706]</z13u-user-defined-1>
+<z13u-user-defined-2-code></z13u-user-defined-2-code>
+<z13u-user-defined-2>Žvejkačky / Marka Míková ; ilustroval Juraj Horváth</z13u-user-defined-2>
+<z13u-user-defined-3-code></z13u-user-defined-3-code>
+<z13u-user-defined-3>##Míková, Marka, 1959-##Žvejkačky / Marka Míková ; ilustroval Juraj Horváth##1. vydání##29 nečíslovaných stran : barevné ilustrace ; 24 cm + 3 listy Esemesky Marky Míkové</z13u-user-defined-3>
+<z13u-user-defined-4-code>300</z13u-user-defined-4-code>
+<z13u-user-defined-4>29 nečíslovaných stran : barevné ilustrace ; 24 cm + 3 listy Esemesky Marky Míkové</z13u-user-defined-4>
+<z13u-user-defined-5-code>264 1</z13u-user-defined-5-code>
+<z13u-user-defined-5>Baobab,</z13u-user-defined-5>
+<z13u-user-defined-6-code></z13u-user-defined-6-code>
+<z13u-user-defined-6></z13u-user-defined-6>
+<z13u-user-defined-7-code></z13u-user-defined-7-code>
+<z13u-user-defined-7>Míková, Marka, Žvejkačky /  29 nečíslovaných stran : barevné ilustrace ; 24 cm +</z13u-user-defined-7>
+<z13u-user-defined-8-code></z13u-user-defined-8-code>
+<z13u-user-defined-8>Název z obálky</z13u-user-defined-8>
+<z13u-user-defined-9-code></z13u-user-defined-9-code>
+<z13u-user-defined-9>25 * 26</z13u-user-defined-9>
+<z13u-user-defined-10-code></z13u-user-defined-10-code>
+<z13u-user-defined-10></z13u-user-defined-10>
+<z13u-user-defined-11-code></z13u-user-defined-11-code>
+<z13u-user-defined-11></z13u-user-defined-11>
+<z13u-user-defined-12-code></z13u-user-defined-12-code>
+<z13u-user-defined-12></z13u-user-defined-12>
+<z13u-user-defined-13-code></z13u-user-defined-13-code>
+<z13u-user-defined-13></z13u-user-defined-13>
+<z13u-user-defined-14-code></z13u-user-defined-14-code>
+<z13u-user-defined-14></z13u-user-defined-14>
+<z13u-user-defined-15-code></z13u-user-defined-15-code>
+<z13u-user-defined-15></z13u-user-defined-15>
+<sub-library-address-1-occ1>Pedagogická fakulta UK</sub-library-address-1-occ1>
+<sub-library-address-1-occ2>Knihovna</sub-library-address-1-occ2>
+<sub-library-address-1-occ3>Magdalény Rettigové 4</sub-library-address-1-occ3>
+<sub-library-address-1-occ4>116 39 Praha 1</sub-library-address-1-occ4>
+<sub-library-address-1-occ5>knihovna@pedf.cuni.cz</sub-library-address-1-occ5>
+<sub-library-address-1-occ6>https://knihovna.pedf.cuni.cz</sub-library-address-1-occ6>
+<sub-library-address-1-occ7></sub-library-address-1-occ7>
+<sub-library-address-1-occ8></sub-library-address-1-occ8>
+<sub-library-address-1-occ9></sub-library-address-1-occ9>
+<sub-library-address-1-occ10></sub-library-address-1-occ10>
+<z30-doc-number>2278707</z30-doc-number>
+<z30-item-sequence>    1.0</z30-item-sequence>
+<z30-barcode>2592190994</z30-barcode>
+<z30-sub-library>PedF M. Rettigové</z30-sub-library>
+<z30-material>Kniha</z30-material>
+<z30-item-status>Běžná</z30-item-status>
+<z30-open-date>04/06/2019</z30-open-date>
+<z30-update-date>05/06/2019</z30-update-date>
+<z30-cataloger>MANK</z30-cataloger>
+<z30-date-last-return>03/03/2020</z30-date-last-return>
+<z30-hour-last-return>09:45</z30-hour-last-return>
+<z30-ip-last-return>PEDFR2501</z30-ip-last-return>
+<z30-no-loans>000</z30-no-loans>
+<z30-alpha>L</z30-alpha>
+<z30-collection>Rett-knihovna</z30-collection>
+<z30-call-no-type></z30-call-no-type>
+<z30-call-no>Be17660</z30-call-no>
+<z30-call-no-key>be17660</z30-call-no-key>
+<z30-call-no-2-type></z30-call-no-2-type>
+<z30-call-no-2></z30-call-no-2>
+<z30-call-no-2-key></z30-call-no-2-key>
+<z30-description></z30-description>
+<z30-note-opac></z30-note-opac>
+<z30-note-circulation>nová, nepoškozená</z30-note-circulation>
+<z30-note-internal></z30-note-internal>
+<z30-order-number>101796</z30-order-number>
+<z30-inventory-number>2592190994</z30-inventory-number>
+<z30-inventory-number-date>05/06/2019</z30-inventory-number-date>
+<z30-last-shelf-report-date>00000000</z30-last-shelf-report-date>
+<z30-price>127.00</z30-price>
+<z30-shelf-report-number></z30-shelf-report-number>
+<z30-on-shelf-date>00000000</z30-on-shelf-date>
+<z30-on-shelf-seq>000000</z30-on-shelf-seq>
+<z30-doc-number-2>000000000</z30-doc-number-2>
+<z30-schedule-sequence-2>00000</z30-schedule-sequence-2>
+<z30-copy-sequence-2>00000</z30-copy-sequence-2>
+<z30-vendor-code>KOSMAS-PEDF</z30-vendor-code>
+<z30-invoice-number>10-11534/2019</z30-invoice-number>
+<z30-line-number>00017</z30-line-number>
+<z30-pages></z30-pages>
+<z30-issue-date></z30-issue-date>
+<z30-expected-arrival-date></z30-expected-arrival-date>
+<z30-arrival-date></z30-arrival-date>
+<z30-item-statistic></z30-item-statistic>
+<z30-item-process-status>Nezpracovává se</z30-item-process-status>
+<z30-copy-id></z30-copy-id>
+<z30-hol-doc-number>000000000</z30-hol-doc-number>
+<z30-temp-location>Ne</z30-temp-location>
+<z30-enumeration-a></z30-enumeration-a>
+<z30-enumeration-b></z30-enumeration-b>
+<z30-enumeration-c></z30-enumeration-c>
+<z30-enumeration-d></z30-enumeration-d>
+<z30-enumeration-e></z30-enumeration-e>
+<z30-enumeration-f></z30-enumeration-f>
+<z30-enumeration-g></z30-enumeration-g>
+<z30-enumeration-h></z30-enumeration-h>
+<z30-chronological-i></z30-chronological-i>
+<z30-chronological-j></z30-chronological-j>
+<z30-chronological-k></z30-chronological-k>
+<z30-chronological-l></z30-chronological-l>
+<z30-chronological-m></z30-chronological-m>
+<z30-supp-index-o></z30-supp-index-o>
+<z30-85x-type></z30-85x-type>
+<z30-depository-id></z30-depository-id>
+<z30-linking-number>000000000</z30-linking-number>
+<z30-gap-indicator></z30-gap-indicator>
+<z30-maintenance-count>000</z30-maintenance-count>
+<z30-process-status-date>20190605</z30-process-status-date>
+<z30-upd-time-stamp>202003030945107</z30-upd-time-stamp>
+<z30-ip-last-return-v6></z30-ip-last-return-v6>
+<z37-doc-number>002278707</z37-doc-number>
+<z37-item-sequence>000010</z37-item-sequence>
+<z37-sequence>0001</z37-sequence>
+<z37-id>70478559</z37-id>
+<z37-status>Zpracovává se</z37-status>
+<z37-expand>Y</z37-expand>
+<z37-priority>30</z37-priority>
+<z37-open-date>23/04/2020</z37-open-date>
+<z37-open-hour>12:54</z37-open-hour>
+<z37-request-date>23/04/2020</z37-request-date>
+<z37-end-request-date>23/07/2020</z37-end-request-date>
+<z37-hold-date></z37-hold-date>
+<z37-letter-status></z37-letter-status>
+<z37-letter-date></z37-letter-date>
+<z37-alpha>L</z37-alpha>
+<z37-author></z37-author>
+<z37-title></z37-title>
+<z37-pages></z37-pages>
+<z37-note-1></z37-note-1>
+<z37-note-2></z37-note-2>
+<z37-print-status></z37-print-status>
+<z37-requester-id></z37-requester-id>
+<z37-cataloger-name></z37-cataloger-name>
+<z37-cataloger-ip></z37-cataloger-ip>
+<z37-hold-sequence>000</z37-hold-sequence>
+<z37-pickup-location>PedF M. Rettigové</z37-pickup-location>
+<z37-send-action>01</z37-send-action>
+<z37-end-hold-date></z37-end-hold-date>
+<z37-recall-type>03</z37-recall-type>
+<z37-rush-request>Ne</z37-rush-request>
+<z37-filter-sub-library>PEDFR</z37-filter-sub-library>
+<z37-filter-item-status>04</z37-filter-item-status>
+<z37-filter-process-status></z37-filter-process-status>
+<z37-filter-collection>#</z37-filter-collection>
+<z37-filter-copy>00000</z37-filter-copy>
+<z37-enumeration-a></z37-enumeration-a>
+<z37-enumeration-b></z37-enumeration-b>
+<z37-enumeration-c></z37-enumeration-c>
+<z37-chronological-i></z37-chronological-i>
+<z37-chronological-j></z37-chronological-j>
+<z37-chronological-k></z37-chronological-k>
+<z37-request-type>Požadavek na výpůjčku</z37-request-type>
+<z37-booking-start-date></z37-booking-start-date>
+<z37-booking-start-hour></z37-booking-start-hour>
+<z37-booking-end-date></z37-booking-end-date>
+<z37-booking-end-hour></z37-booking-end-hour>
+<z37-booking-orig-start-time></z37-booking-orig-start-time>
+<z37-booking-orig-end-time></z37-booking-orig-end-time>
+<z37-release-time></z37-release-time>
+<z37-delivery-time></z37-delivery-time>
+<z37-head-time></z37-head-time>
+<z37-tail-time></z37-tail-time>
+<z37-delivery-sub-location></z37-delivery-sub-location>
+<z37-return-location></z37-return-location>
+<z37-return-sub-location></z37-return-sub-location>
+<z37-delivery-method></z37-delivery-method>
+<z37-effective-start-time></z37-effective-start-time>
+<z37-effective-end-time></z37-effective-end-time>
+<z37-request-number>000331025</z37-request-number>
+<z37-group-id>000000000</z37-group-id>
+<z37-group-sequence>000000</z37-group-sequence>
+<z37-balancer-status></z37-balancer-status>
+<z37-balancer-date>00000000</z37-balancer-date>
+<z37-request-identifier></z37-request-identifier>
+<z37-requester-name></z37-requester-name>
+<z37-upd-time-stamp>202004231254361</z37-upd-time-stamp>
+<z37-cataloger-ip-v6></z37-cataloger-ip-v6>
+<z52-seq-number>374141</z52-seq-number>
+<email-address>luciestrychova95@gmail.com</email-address>
+<plain-html>L</plain-html>
+<z302-key-01>BC970478559</z302-key-01>
+<z302-key-51>442912DD</z302-key-51>
+<z302-key-52>PNTCCGN</z302-key-52>
+<z302-id>70478559</z302-id>
+<z302-proxy-for-id></z302-proxy-for-id>
+<z302-primary-id></z302-primary-id>
+<z302-name-key>strychova lucie                       70478559</z302-name-key>
+<z302-user-type></z302-user-type>
+<z302-user-library>CKS50</z302-user-library>
+<z302-open-date>30/07/2015</z302-open-date>
+<z302-update-date>21/01/2020</z302-update-date>
+<z302-con-lng>CZE</z302-con-lng>
+<z302-alpha>L</z302-alpha>
+<z302-name>Strychová, Lucie</z302-name>
+<z302-title></z302-title>
+<z302-delinq-1>00</z302-delinq-1>
+<z302-delinq-n-1></z302-delinq-n-1>
+<z302-delinq-1-update-date>20180910</z302-delinq-1-update-date>
+<z302-delinq-1-cat-name>MAR</z302-delinq-1-cat-name>
+<z302-delinq-2>00</z302-delinq-2>
+<z302-delinq-n-2></z302-delinq-n-2>
+<z302-delinq-2-update-date>00000000</z302-delinq-2-update-date>
+<z302-delinq-2-cat-name></z302-delinq-2-cat-name>
+<z302-delinq-3>00</z302-delinq-3>
+<z302-delinq-n-3></z302-delinq-n-3>
+<z302-delinq-3-update-date>00000000</z302-delinq-3-update-date>
+<z302-delinq-3-cat-name></z302-delinq-3-cat-name>
+<z302-budget></z302-budget>
+<z302-profile-id></z302-profile-id>
+<z302-ill-library></z302-ill-library>
+<z302-home-library></z302-home-library>
+<z302-field-1></z302-field-1>
+<z302-field-2>Aktualizováno: 21.01.2020 23:07:35 (reg_upd)</z302-field-2>
+<z302-field-3></z302-field-3>
+<z302-note-1></z302-note-1>
+<z302-note-2></z302-note-2>
+<z302-salutation></z302-salutation>
+<z302-ill-total-limit>0000</z302-ill-total-limit>
+<z302-ill-active-limit>0000</z302-ill-active-limit>
+<z302-dispatch-library></z302-dispatch-library>
+<z302-birth-date>22/08/1995</z302-birth-date>
+<z302-export-consent>N</z302-export-consent>
+<z302-proxy-id-type>00</z302-proxy-id-type>
+<z302-send-all-letters>Y</z302-send-all-letters>
+<z302-plain-html>L</z302-plain-html>
+<z302-want-sms>N</z302-want-sms>
+<z302-plif-modification></z302-plif-modification>
+<z302-title-req-limit>0000</z302-title-req-limit>
+<z302-gender></z302-gender>
+<z302-birthplace></z302-birthplace>
+<z302-upd-time-stamp>202004231249472</z302-upd-time-stamp>
+<z302-last-name></z302-last-name>
+<z302-first-name></z302-first-name>
+<z302-address-0>Lucie Strychová</z302-address-0>
+<z302-address-1>Běhounkova 27</z302-address-1>
+<z302-address-2>Praha 13</z302-address-2>
+<z302-zip>155 00</z302-zip>
+<z302-email-address>luciestrychova95@gmail.com</z302-email-address>
+<z302-telephone>774100016</z302-telephone>
+<z302-telephone-2></z302-telephone-2>
+<z302-telephone-3></z302-telephone-3>
+<z302-telephone-4></z302-telephone-4>
+<z302-sms-number></z302-sms-number>
+<z302-salutation-title></z302-salutation-title>
+<z305-id>70478559</z305-id>
+<z305-sub-library>UK - uživatelé</z305-sub-library>
+<z305-open-date>01/12/2019</z305-open-date>
+<z305-update-date>01/12/2019</z305-update-date>
+<z305-bor-type></z305-bor-type>
+<z305-bor-status>01 - Student</z305-bor-status>
+<z305-registration-date>20191201</z305-registration-date>
+<z305-expiry-date>01/12/2022</z305-expiry-date>
+<z305-note></z305-note>
+<z305-loan-permission>Y</z305-loan-permission>
+<z305-photo-permission>Y</z305-photo-permission>
+<z305-over-permission>Y</z305-over-permission>
+<z305-multi-hold>N</z305-multi-hold>
+<z305-loan-check>Y</z305-loan-check>
+<z305-hold-permission>Y</z305-hold-permission>
+<z305-renew-permission>Y</z305-renew-permission>
+<z305-rr-permission>Y</z305-rr-permission>
+<z305-ignore-late-return>N</z305-ignore-late-return>
+<z305-last-activity-date></z305-last-activity-date>
+<z305-photo-charge>C</z305-photo-charge>
+<z305-no-loan>0000</z305-no-loan>
+<z305-no-hold>0000</z305-no-hold>
+<z305-no-photo>0000</z305-no-photo>
+<z305-no-cash>0000</z305-no-cash>
+<z305-cash-limit>0.00</z305-cash-limit>
+<z305-credit-debit></z305-credit-debit>
+<z305-sum>0.00</z305-sum>
+<z305-delinq-1>00</z305-delinq-1>
+<z305-delinq-n-1></z305-delinq-n-1>
+<z305-delinq-1-update-date>00000000</z305-delinq-1-update-date>
+<z305-delinq-1-cat-name></z305-delinq-1-cat-name>
+<z305-delinq-2>00</z305-delinq-2>
+<z305-delinq-n-2></z305-delinq-n-2>
+<z305-delinq-2-update-date>00000000</z305-delinq-2-update-date>
+<z305-delinq-2-cat-name></z305-delinq-2-cat-name>
+<z305-delinq-3>00</z305-delinq-3>
+<z305-delinq-n-3></z305-delinq-n-3>
+<z305-delinq-3-update-date>00000000</z305-delinq-3-update-date>
+<z305-delinq-3-cat-name></z305-delinq-3-cat-name>
+<z305-field-1>Magisterské: PedF</z305-field-1>
+<z305-field-2></z305-field-2>
+<z305-field-3>Generováno: 01.12.2019 13:49:58 (ukusr_gen)</z305-field-3>
+<z305-hold-on-shelf>N</z305-hold-on-shelf>
+<z305-end-block-date></z305-end-block-date>
+<z305-booking-permission>N</z305-booking-permission>
+<z305-booking-ignore-hours>N</z305-booking-ignore-hours>
+<z305-rush-cat-request>N</z305-rush-cat-request>
+<z305-upd-time-stamp>201912011411289</z305-upd-time-stamp>
+<z308-key-type>01</z308-key-type>
+<z308-key-data>BC970478559</z308-key-data>
+<z308-user-library>CKS50</z308-user-library>
+<z308-verification>70478559</z308-verification>
+<z308-verification-type>00</z308-verification-type>
+<z308-id>70478559</z308-id>
+<z308-status>AC</z308-status>
+<z308-encryption>H</z308-encryption>
+<z308-upd-time-stamp>202001212308199</z308-upd-time-stamp>
+<availability></availability>
+</section-01>
+
+</printout>

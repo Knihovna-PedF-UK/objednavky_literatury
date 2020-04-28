@@ -1,7 +1,8 @@
+-- simulate utf8 function from Lua 5.3
+-- I've added this because I tested my code in WSL Ubuntu and there was too old LuaTeX with only Lua 5.2 support
 local myutf = {}
 local gmatch = unicode.utf8.gmatch
 local ubyte = unicode.utf8.byte
--- simulate utf8 function from Lua 5.3
 function myutf.codepoint(s, start, stop)
   local t = {}
   local i = 1
