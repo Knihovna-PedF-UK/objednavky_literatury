@@ -103,7 +103,8 @@ local function get_callnos_for_print(items)
   local t = {}
   for _, item in ipairs(items) do 
     -- insert only first 25 characters of title,in order to prevent overflow
-    local len = utf8.len(item.title) + 1
+    local len = utf8.len(item.title)-- + 1
+    print(item.title)
     local codepoints = {utf8.codepoint(item.title, 1, math.min(25, len))}
     local title = {}
     for _, c in ipairs(codepoints) do title[#title+1]  = utf8.char(c) end
