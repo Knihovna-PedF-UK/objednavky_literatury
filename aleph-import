@@ -1,4 +1,8 @@
 #!/bin/bash
 # importovat soubor z Wine do adresáře
 # je třeba zadat název dávky
-cat ~/.wine/drive_c/AL500/Circ/files/CKS50/print/$1 | dos2unix > objednavky/$1
+import_dir=~/.wine/drive_c/AL500/Circ/files/CKS50/print
+last_file=$(ls -t $import_dir/* | head -1 | xargs basename)
+echo $last_file
+cat $import_dir/$last_file | dos2unix > objednavky/$last_file
+texlua alephobjednavky.lua objednavky/$last_file
