@@ -130,6 +130,7 @@ local function join_records(records)
       persons[id] = person 
     end
     local title = rec.bibinfo:match("^([^%/]+)") or ""
+    title = title:gsub("([%&%%])", "\\%1")
     table.insert(person.items , {callno =rec.callno, title = title})
     -- person.callno = person.callno ..  rec.callno .."\\\\\n" -- join callnumbers with newlines
   end
