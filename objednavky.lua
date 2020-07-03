@@ -87,7 +87,7 @@ local function sort_aleph_callnos(items)
   end
   sort_callnos_table(callnos)
   for _, callno in ipairs(callnos) do
-    sorted[#sorted+1] = {callno= callno, title = backmap[callno]}
+    sorted[#sorted+1] = {callno= callno, title = backmap[callno], }
   end
   return sorted
 end
@@ -132,6 +132,24 @@ local function get_notes(rec)
   return unique_notes
 end
 
+local function get_joined_notes(items)
+  local notes = {}
+  for _, item in ipairs(items) do -- requested documents
+    for field, value in pairs(item) do -- data in documents
+      if field == "notes" then -- find notes
+        for _,note in ipairs(value) do
+          -- remove duplicates
+          notes[note] = true
+        end
+      end
+    end
+  end
+  -- return comma separated notes
+  local unique_notes = {}
+  for k, _ in pairs(notes) do unique_notes[#unique_notes + 1] = k end
+  return table.concat(unique_notes, ", ") 
+end
+
 -- join records for each person
 local function join_records(records)
   local persons = {}
@@ -159,6 +177,8 @@ local function join_records(records)
     local sorted_items = sort_aleph_callnos(record.items)
     record.callno = get_callnos_for_print(sorted_items)
     record.qrcallno = get_joined_callnos(sorted_items) -- simplified callnos for QR code
+    record.notes = get_joined_notes(record.items)
+    print("NOtes" , record.notes)
     -- record["callno"] =  sort_callnos(record["callno"]) -- sort call numbers
     newrecords[#newrecords + 1] = record
   end
@@ -213,7 +233,7 @@ end
 
 function M.fill_template(template, messages)
   local lines = {}
-  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$userId}{$qrcallno}%%'
+  local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$userId}{$notes}%%'
   for i, msg in ipairs(messages) do
     -- simple string interpolation
     lines[i] = cmd_template:gsub("%$([%a]+)", function(key) return msg[key] end)
