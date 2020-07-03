@@ -113,6 +113,25 @@ local function get_callnos_for_print(items)
   return table.concat(t, "\\\\\n")
 end
 
+-- join various notes
+local function get_notes(rec)
+  local notes = {}
+  local unique_notes = {}
+  for k,v in pairs(rec) do
+    -- we have several types of notes, get all of them
+    if k:match("note") then
+      if v~="" then
+        -- we don't want duplicates
+        notes[v] = true
+      end
+    end
+  end
+  for k, _ in pairs(notes) do 
+    unique_notes[#unique_notes + 1] = k 
+  end
+  return unique_notes
+end
+
 -- join records for each person
 local function join_records(records)
   local persons = {}
@@ -131,7 +150,7 @@ local function join_records(records)
     end
     local title = rec.bibinfo:match("^([^%/]+)") or ""
     title = title:gsub("([%&%%])", "\\%1")
-    table.insert(person.items , {callno =rec.callno, title = title})
+    table.insert(person.items , {callno =rec.callno, title = title, notes = get_notes(rec)})
     -- person.callno = person.callno ..  rec.callno .."\\\\\n" -- join callnumbers with newlines
   end
   -- make new sorted table

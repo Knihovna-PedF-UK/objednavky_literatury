@@ -12,7 +12,12 @@ local map = {
   ["z37-open-date"] = "open_date",
   ["z37-open-hour"] = "open_hour",
   ["bib-info"] = "bibinfo",
-  ["z302-id"] = "userId"
+  ["z302-id"] = "userId",
+  ["z37-note-1"] = "note-1",
+  ["z37-note-2"] = "note-2",
+  ["z302-note-1"] = "note-3",
+  ["z302-note-1"] = "note-4",
+
 }
 
 local input = arg[1]
