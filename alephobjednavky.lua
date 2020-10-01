@@ -17,7 +17,10 @@ local map = {
   ["z37-note-2"] = "note-2",
   ["z302-note-1"] = "note-3",
   ["z302-note-1"] = "note-4",
-
+  ["z302-telephone"] = "tel1",
+  ["z302-telephone-2"] = "tel2",
+  ["z302-telephone-3"] = "tel3",
+  ["z302-telephone-4"] = "tel4",
 }
 
 local input = arg[1]
@@ -35,7 +38,7 @@ lualatex:close()
 
 --- make csv file for mail merge
 local csv_filename = input .. ".csv"
-local tsv = objednavky.make_tsv(messages, {"userId", "mail", "qrcallno", "name", "submitDate"})
+local tsv = objednavky.make_tsv(messages, {"userId", "mail", "phone", "qrcallno", "name", "submitDate"})
 local tsv_file = io.open(csv_filename, "w")
 tsv_file:write(tsv)
 tsv_file:close()
