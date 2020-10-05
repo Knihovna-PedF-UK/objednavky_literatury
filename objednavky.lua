@@ -156,7 +156,7 @@ local function get_phone(rec)
     local current_number = rec["tel" .. i]
     if current_number ~="" then return current_number end
   end
-  return ""
+  return "..."
 end
 
 -- join records for each person
