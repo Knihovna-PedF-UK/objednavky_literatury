@@ -154,7 +154,7 @@ local function get_phone(rec)
   -- phone can be in four different fields
   for i= 1,4 do
     local current_number = rec["tel" .. i]
-    if current_number ~="" then return current_number end
+    if current_number and current_number:match("[%S]") then return current_number end
   end
   return "..."
 end
