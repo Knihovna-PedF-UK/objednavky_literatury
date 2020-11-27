@@ -6,3 +6,4 @@ last_file=$(ls -t $import_dir/* | head -1 | xargs basename)
 echo $last_file
 cat $import_dir/$last_file | dos2unix > objednavky/$last_file
 texlua alephobjednavky.lua objednavky/$last_file
+mv $last_file.xlsx objednavky/
