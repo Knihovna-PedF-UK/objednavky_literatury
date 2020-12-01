@@ -202,12 +202,22 @@ local function clean_xml(input_file)
   local newinput = os.tmpname()
   local f = io.open(newinput, "w")
   -- copy lines, but ignore what we don't want to be in the new xml file
+  local prev
+  local i = 0
+  local prevtag
   for line in io.lines(input_file) do
+    i = i + 1
+    local tag = line:match("<(.-)>")
+    -- fix address
+    if  tag == "z302-zip" and prevtag ~= "z302-address-4" then
+      f:write("<z302-address-4>Česká republika</z302-address-4>\n")
+    end
     local z302key = line:match("z302%-key%-([0-9]+)")
     -- ignore z302 keys that are not z302-key-01
     if z302key == "01" or z302key == nil then
       f:write(line .."\n")
     end
+    prevtag = tag
   end
   f:close()
   return newinput
