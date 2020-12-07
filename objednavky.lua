@@ -159,6 +159,18 @@ local function get_phone(rec)
   return "..."
 end
 
+local function format_phone(phone)
+  -- insert space after every third character in the phone number
+  local i = 1
+  local t = {}
+  for s in phone:gmatch("(.)") do
+    t[#t+1] = s
+    if i % 3 == 0 then t[#t+1] = " " end
+    if s ~="+" then i = i + 1 end
+  end
+  return table.concat(t)
+end
+
 -- join records for each person
 local function join_records(records)
   local persons = {}
@@ -169,7 +181,7 @@ local function join_records(records)
     if not person then
       person = {items = {}} -- 
       for k,v in pairs(rec) do person[k] = v end
-      person.phone = get_phone(rec)
+      person.phone = format_phone(get_phone(rec))
       person.callno = "" -- we need to collect call numbers
       person.pos = i -- we want to sort persons as they appeared in the xml file
       person.barcode = id --overwrite barcode
@@ -256,7 +268,8 @@ function M.fill_template(template, messages)
   local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$phone}{$mail}{$callno}{$id}{$userId}{$notes}%%'
   for i, msg in ipairs(messages) do
     -- simple string interpolation
-    lines[i] = cmd_template:gsub("%$([%a]+)", function(key) return msg[key] end)
+    lines[i] = cmd_template:gsub("%$([%a]+)", function(key) print("fill", key, msg[key])
+      return msg[key] end)
   end
   local content = table.concat(lines, "\n")
   return template:gsub("{{content}}", content)

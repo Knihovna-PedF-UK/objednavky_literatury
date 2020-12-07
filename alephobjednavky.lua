@@ -2,7 +2,7 @@ local dir = arg[0]:gsub("alephobjednavky.lua$","")
 package.path = dir .."?.lua;" .. package.path
 local objednavky = require "objednavky"
 
-local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$qrcallno}%%'
+-- local cmd_template = '\\objednavka{$name}{$barcode}{$submitDate}{$date}{$mail}{$callno}{$id}{$qrcallno}%%'
 local map = {
   ["z30-doc-number"] = "barcode",
   ["z302-name"] = "name",
@@ -32,6 +32,7 @@ local template = f:read("*a")
 f:close()
 
 local content = objednavky.fill_template(template, messages)
+print(content)
 local lualatex = io.popen("lualatex --jobname=" .. input, "w")
 lualatex:write(content)
 lualatex:close()
