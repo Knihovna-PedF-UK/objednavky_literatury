@@ -16,16 +16,18 @@
       \vtop to 190mm{%
         \vspace{2mm}
         {\huge\bfseries\raggedright #1}\\%
-        \bigskip\\
+        \medskip\\
         \textbf{ID Objednávky}:\\ #7\\%
         \textbf{ID uživatele}:\\ #8\\%
         \textbf{ČK uživatele}:\\#2\\%
         \textbf{E-mail}: \\ \url{#5}\\%
         \textbf{Telefon}: \\ \texttt{#4}\\%
         \textbf{Čas objednávky}: \\ #3\\%
-        \\ ~ \\
-        \barcode{#2}\\%
-        \\ ~ \\
+        \smallskip
+        % \\ ~ \\
+        {\small\barcode{#2}}\\%
+        \smallskip
+        % \\ ~ \\
 	    \textbf{Signatury:}\\[6pt]%
         #6%
         \\ ~ \\
